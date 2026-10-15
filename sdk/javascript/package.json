@@ -1,0 +1,29 @@
+{
+  "name": "microbrowser-client",
+  "version": "0.1.0",
+  "description": "Remote browser API for AI agents and automation. Screenshot websites, render JavaScript, extract Markdown or article JSON and save PDFs with a single GET request.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "homepage": "https://microbrowser.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skibid991/microbrowser.org.git",
+    "directory": "sdk/javascript"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ]
+}
